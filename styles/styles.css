@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(255, 128, 255);
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    font-size: x-large;
+    padding-right: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
